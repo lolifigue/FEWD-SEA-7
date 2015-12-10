@@ -6,3 +6,31 @@ h4 {
    color: #900;
   font-style: italic;
 }
+
+body {
+    background: #ccc;
+    background: url("cookies.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    border-radius: 25px
+}
+
+#footer { 
+    font-style: italic;
+}
+
+.animalProduct {
+	color: 2d882d;
+}
+
+#nuts {
+	color: FF0000;
+}
+
+
+
+
+
