@@ -1,0 +1,94 @@
+
+
+body {
+	margin-right: 100px;
+	margin-left: 100px;
+	/*margin: 0 auto; --> for responsiveness, but I want to keep margins*/
+	font-family: helvetica;
+	font-size: 12px;
+	background-color: #ecf0f1;
+    background: url('/images/background-crumpled-paper.png'); /*does not find it...?*/
+    background-size: cover;
+    background-position: center;
+}
+
+#body-portfolio {
+	text-align: center;
+}
+
+#header {
+	text-align: center;
+	overflow: auto; /*enlarges the container where the image is (id=hedader) to the right size so that the image fits in it.*/
+}
+.small-line-space { /*to control small between line*/
+    line-height: 20%;
+}
+
+#avatar {
+	float: right;
+	width: 150px;
+	margin-bottom: 5px;
+}
+
+#line {
+	width: 100%; /*not required if 100%*/
+	height: 3px; 
+	margin-bottom: 5px;
+	background: black;
+}
+
+.top-line {
+	margin-top: 20px;
+}
+
+
+h2 {
+	text-align: center;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+h3 {
+	font-size: 17px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	/*padding-bottom: 0px;*/
+}
+
+h4 {
+	font-size: 15px;
+	margin-top: 5px;
+	/*padding-top: 0px;*/
+	margin-bottom: 0px;
+	/*padding-bottom: 0px;*/
+}
+
+p {
+	margin-top: 1px;
+	/*padding-top: 1px;*/
+}
+ 
+.dates {
+	font-style: italic;
+} 
+
+ ul#bullets {
+ 	list-style-type: none; /*removes bullet point indicators*/
+  	padding-left:0;
+ }
+
+
+#Social {
+	margin-top: 30px;
+	text-align: center;
+	background-color: #bdc3c7;
+	border:solid 1px black;
+	border-radius:15px;
+} 
+
+.icon {
+	padding: 20px;
+	color: #000000;
+	font-size: 30px;
+	text-decoration: none; /*to remove all inherited style (purple icons)*/
+}
