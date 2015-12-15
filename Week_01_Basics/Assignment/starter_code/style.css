@@ -7,7 +7,7 @@ body {
 	font-family: helvetica;
 	font-size: 12px;
 	background-color: #ecf0f1;
-    background: url('/images/background-crumpled-paper.png'); /*does not find it...?*/
+    background-image: url("images/background-crumpled-paper.png");
     background-size: cover;
     background-position: center;
 }
@@ -20,6 +20,27 @@ body {
 	text-align: center;
 	overflow: auto; /*enlarges the container where the image is (id=hedader) to the right size so that the image fits in it.*/
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
 .small-line-space { /*to control small between line*/
     line-height: 20%;
 }
