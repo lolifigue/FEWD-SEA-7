@@ -1,0 +1,41 @@
+* {
+	margin: 10px;
+}
+
+h1 {
+	background-color: red;
+	border: 3px dotted black;
+	padding: 15px 5px 0;
+	text-align: center;
+	margin: 50px 50px 0;
+}
+
+p {
+	background-color: blue;
+	color: white;
+	padding: 23px 10px 6px;
+}
+
+code { /*when you wna tto style code*/
+	background: white;
+	color: black;
+	padding: 3px;
+	border: 1px solid red;
+}
+
+h2 {
+	color: green;
+	font-size: 30px;
+}
+
+ol {
+	background-color: gray;
+	list-style-type: square;
+}
+
+li {
+	font-style: italic;
+}
+
+
+

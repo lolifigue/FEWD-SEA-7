@@ -1,0 +1,12 @@
+blockquote {
+	font-style: italic;
+}
+
+/*to emphazise the italic text within the already italic text (blockquote)*/
+blockquote em {
+	font-style: normal;
+}
+
+footer li {
+	list-style-type: square;
+}

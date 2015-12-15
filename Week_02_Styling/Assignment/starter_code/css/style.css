@@ -50,8 +50,7 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     
 }
 
 
@@ -59,26 +58,51 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
-
-}
-
 header {
-
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
 }
 
 footer {
 
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+.container {
+  width: 960px;
+  margin: 0 auto; /*center it with equal amount of space on both sides*/
+}
 
+header h1 {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+header h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+header h1,
+header h2 { /*applies to both h1 and h2*/
+  color: #FFF;
+  font-family: 'Open-Sans';
+}
+
+.cta {
+  padding: 5px 20px;
+  display: inline-block;
+  background-color: yellow;
+  margin: 0 auto;
+  color: black;
+  text-decoration: none;
+}
+
+cta.yellow {
+
+  background-color: yellow;
+
+}
 
 
 

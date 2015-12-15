@@ -1,5 +1,25 @@
-* {
-  box-sizing: border-box;
+* { /*applies to every element*/
+	/*border: black; so this would add a a boder to every single element*/
+ 	box-sizing: border-box; /*I am defining the box sizes for all elements as (content + padding + border) 
+ 	-- so when I say below that width is 500px I am referring to (content _ padding + border)*/
+ 	/*depending on what box sizing i use, the width and height will be different*/
 }
+
+#box {
+	background: red;
+	padding: 50px 10px 50px 10px; /*if it is zero do not need to write px*/
+	width: 500px;
+
+}
+
+
+#box2 {
+	background-color: yellow;
+	width: 700px;
+	padding-top: 150px 75px;
+	border: 10px outset gold;
+	margin: 30px;
+}
+
 
 
