@@ -1,7 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Project Name: Relaxr website
+Client: Relaxr
+Author: Dolores Figueroa
 Developer @GA in NYC
 */
 
@@ -46,10 +46,11 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 40px 0 40px;
      
 }
 
@@ -59,12 +60,10 @@ body {
 /*******************************************/
 
 header {
+  padding-bottom: 500px;
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
   background-size: cover;
-}
-
-footer {
-
+  background-position: center;
 }
 
 .container {
@@ -74,13 +73,15 @@ footer {
 
 header h1 {
   font-weight: 800;
-  font-size: 36px;
+  font-size: 24px;
+  font-style: Extra bold;
 }
 
 header h2 {
   text-align: center;
   font-weight: 600;
   font-size: 24px;
+  font-style: Semibold;
 }
 
 header h1,
@@ -89,20 +90,124 @@ header h2 { /*applies to both h1 and h2*/
   font-family: 'Open-Sans';
 }
 
+/*.container a .cta.yellow {
+  text-align: center;
+}*/
+
 .cta {
   padding: 5px 20px;
   display: inline-block;
-  background-color: yellow;
   margin: 0 auto;
   color: black;
   text-decoration: none;
+  font-style: Extra bold;
+  font-size: 14px;
+  border-radius: 5px;
+/*  text-align: center;*/
 }
 
-cta.yellow {
+.cta.yellow {
+  background-color: #f9e42e;
+  color: #033048;
+}
 
-  background-color: yellow;
+.cta.blue {
+  background-color: #033048;
+  color: #FFF;
+}
 
+.container.benefits {
+  background-color: #f0efef;
+  margin: 0;
+  /*width: 1318px; added width of class container + margin x 2 -- but this is static*/
+  width: 1238px;
+  color: #606161;
+  padding: 30px 20px 30px 20px;
+}
+
+.container.benefits h3 {
+  font-style: semibold;
+  font-size: 20px;
+}
+
+.container.benefits p, ol {
+  font-style: light;
+  font-size: 13px;
+  list-style-type: circle;
+}
+
+.container.benefits ol {
+  padding-left: 20px;
+}
+
+.container.testimonial {
+  background-color: #606161;
+  margin: 0;
+/*  width: 1318px; */
+  width: 1238px;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-style: semibold italic;
+  font-size: 18px;
+  padding: 30px 200px 30px 200px;
+  text-align: center;
+}
+
+.container.testimonial p {
+/*  width: 918px;*/
+  width: 838px;
+  padding-left: 30px;
+}
+
+.container.yellow {
+  background-color: #f9e42e;
+  margin: 0;
+  width: 1238px;
+  padding: 10px 0 10px 0;
+  text-align: center;
+}
+
+.container.black {
+  background-color: #121212;
+  margin: 0;
+  width: 1238px; /*added width of class container + margin x 2 -- but this is static*/
+  text-align: center;
+}
+
+.container.black p {
+  font-style: extra bold;
+  font-size: 24px;
+  color: #f9e42e;
+  padding: 10px 0 10px 0;
+}
+
+.container #social {
+  padding: 10px 0 10px 0;
+  text-decoration: none; /*to remove all inherited style (purple icons) DOES NOT WORK*/
+  color: white;
+  font-size: 30px;
+  padding: 10px 0 10px 0;
+}
+
+.container #footer {
+  font-style: semi bold;
+  font-size: 9px;
+  color: white;
+  padding: 10px 0 10px 0;
 }
 
 
+
+
+
+
+
+
+
+
+footer {
+
+}
 
