@@ -1,0 +1,36 @@
+body {
+	width: 614px;
+	margin: 0 auto; /*0 is top and bottom, auto adjusts with width of browser*/
+}
+
+header, 
+footer {
+	height: 100px;
+	/*clear: both;*/ /*finds elements floating left and right (both) and places the footer after those. I need to add it if the footer is right under the right&left floating sections (before I added the articles)*/
+	margin: 10px 0;
+}
+
+#leftbox {
+	float: left;
+	height: 350px;
+	width: 297px;
+	margin: 0;
+}
+
+#rightbox {
+	float: right;
+	height: 350px;
+	width: 297px;
+}
+
+article {
+	float: right;
+	height: 100px;
+	width: 198px;
+	margin-top: 10px;
+}
+
+#center {
+	margin: 10px 10px 0 10px;	
+}
+

@@ -1,0 +1,17 @@
+* {
+	box-sizing: border-box; /*if I did not add this line, the 40% plus 60% was > 100% b/c of borders*/
+}
+
+.clearfix:after {
+	visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.gray {
+	background-color: #CCC;
+	border: 1px solid #808080;
+}

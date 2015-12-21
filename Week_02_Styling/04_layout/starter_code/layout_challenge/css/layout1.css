@@ -1,0 +1,26 @@
+body {
+	width: 614px;
+	margin: 0 auto; /*0 is top and bottom, auto adjusts with width of browser*/
+}
+
+header, 
+footer {
+	height: 200px;
+	/*clear: both;*/ /*finds elements floating left and right (both) and places the footer after those.*/
+	margin: 10px 0;
+}
+
+sidebar {
+	float: right;
+	display: block;
+	height: 350px;
+	width: 200px;
+	/*width: 40%;*/
+}
+
+section {
+	float: left;
+	height: 350px;
+	width: 400px;
+	/*width: 60%;*/
+}

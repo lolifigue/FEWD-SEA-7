@@ -32,6 +32,11 @@ p {
 #grayButton {
   background: gray;
 }
+
 #whiteButton {
   background: white;
+}
+
+#blackButton {
+  background: black;
 }
