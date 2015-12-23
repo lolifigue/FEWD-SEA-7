@@ -1,0 +1,48 @@
+body {
+	width: 614px;
+	margin: 0 auto; /*0 is top and bottom, auto adjusts with width of browser*/
+}
+
+/*header {
+	height: 100px;
+	width: 198px;
+	margin: 0 10px 0 0;
+}*/
+
+nav {
+	float: right;
+	height: 50px;
+	width: 80px;
+/*	margin: 0 10px 0 0; -->not needed anymore after I used #nav to vertcally align nav*/
+}
+
+#header {
+	float: left;
+	height: 100px;
+	width: 198px;
+}
+
+.nav {
+	margin: 25px 10px 25px 0; /*is there a better way to align vetically?*/
+}
+
+section {
+	height: 200px;
+	margin-top: 10px;
+}
+
+article {
+	float: right;
+	height: 100px;
+	width: 198px;
+	margin-top: 10px;
+}
+
+#center {
+	margin: 10px 10px 0 10px;	
+}
+
+footer {
+	height: 100px;
+	margin: 10px 0;
+}
