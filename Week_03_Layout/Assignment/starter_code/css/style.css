@@ -54,15 +54,10 @@ body {
     width: 960px;
 }
 
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-
+/*style for header*/
 #page-header {
   background: #033048;
   overflow: hidden;
-/*  padding: 0 3%;*/
 }
 
 #page-header h1 {
@@ -108,55 +103,22 @@ body {
   background: #666;
 }
 
-
-/*check below*/
-
-/*.container {
-  width: 960px;
-  margin: 0 auto; center it with equal amount of space on both sides
-}*/
-
-/*header h1 {
-  font-weight: 800;
-  font-size: 30px;
-  font-style: Extra bold;
-  padding-bottom: 30px;
-}*/
-
-/*header h2 {
-  text-align: center;
-  font-weight: 600;
-  font-size: 24px;
-  font-style: Semibold;
-  padding-bottom: 30px;
-}*/
-
-/*header h1,
-header h2
-  color: #FFF;
-  font-family: 'Open-Sans';
-}*/
-
-/*.container a .cta.yellow {
-  text-align: center;
-}*/
-
+/*style for grey section under header*/
 #grey {
   background-color: #f0efef;
   padding: 20px 0 20px 0;
 }
 
+/*style for blog entries*/
 .blog {
   float: left;
-  width: 640px;
-  margin-left: 60px;
-  margin-right: 60px;
+  width: 680px;
+  margin: 0 20px 0 60px;
 }
 
 h3 {
   font-size: 25px;
-  font-style: semibold;
-  color: #033048;
+  color: #34495e;
 }
 
 article {
@@ -166,10 +128,10 @@ article {
 article a {
 /*  text-align: right;*/
 /*  float: right;*/
-  color: #033048;
+  color: #34495e;
   text-decoration: none;
   font-size: 18px;
-  font-style: semibold;
+  font-weight: bold;
 }
 
 article p {
@@ -181,13 +143,33 @@ article p {
 
 article img {
   padding: 10px 0 0 0;
-  width: 640px;
+  width: 680px;
 }
 
+/*style for right hand nav*/
 .sidebar {
   width: 190px;
   float: right;
   padding: 0 60px 0 0;
+}
+
+.sidebar a {
+  color: #34495e;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.sidebar p {
+  color: #34495e;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1;
+}
+
+#cta {
+  font-weight: bold;
+  color: #34495e;
 }
 
 .side-section {
@@ -196,53 +178,28 @@ article img {
 
 #ad {
   background-color: white;
-  height: 150px;
+  color: #34495e;
+  height: 250px;
   text-align: center;
   margin: 20px 0 0 0;
 }
 
 h4 {
   font-size: 24px;
-  font-style: extrabold;
-  color: #033048;
+  font-weight: 900;
+  color: #34495e;
 }
 
-.sidebar a {
-  color: #033048;
-  text-decoration: none;
-  font-size: 18px;
-  font-style: light;
-}
-
-.sidebar p {
-  color: #033048;
-  font-size: 18px;
-  font-style: light;
-}
-
+/*style for bottom section under blog entries*/
 .cta {
   padding: 5px 20px;
   display: inline-block;
   margin: 0 auto;
   color: black;
   text-decoration: none;
-  font-style: Extra bold;
+  font-weight: 900;
   font-size: 14px;
   border-radius: 5px;
-/*  text-align: center;*/
-}
-
-/*.cta.yellow {
-  background-color: #f9e42e;
-  color: #033048;
-}*/
-
-.center {
-  text-align: center;
-
-}
-
-.cta.blue {
   background-color: #033048;
   color: #FFF;
 }
@@ -268,6 +225,11 @@ h4 {
 }
 
 .container #social {
+  padding: 10px;
+}
+
+/*adding space in bewtween social icons*/
+.container #social img {
   padding: 10px;
 }
 
