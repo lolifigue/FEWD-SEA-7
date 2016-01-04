@@ -74,7 +74,7 @@ body {
 #page-header nav {
   float: right;
   margin: 20px 60px 0 0;
-  vertical-align: center; /*how do I align vertically?*/
+  vertical-align: middle; /*how do I align vertically?*/
 }
 
 #page-header a {
@@ -126,12 +126,12 @@ article {
 }
 
 article a {
-/*  text-align: right;*/
-/*  float: right;*/
   color: #34495e;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
+  display: block; /*changed the <a> default inline-display to "block" in order to rigth-align*/
+  text-align: right;
 }
 
 article p {
