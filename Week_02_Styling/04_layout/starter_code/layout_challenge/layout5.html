@@ -7,25 +7,25 @@
 	</head>
 
 	<body>
-		<div class = "clearfix">
-			<nav class = "gray" id = "header"></nav>
+		<div id = "header">
+			<nav class = "gray" id = "leftheader"></nav>
 			<nav class = "gray nav"></nav>
 			<nav class = "gray nav"></nav>
 			<nav class = "gray nav"></nav>
 			<nav class = "gray nav"></nav>
 		</div>
-		<div>
+		<div> <!-- I had a clearfix here, which was not needed as no floating child elements in this div. It was messing layout up but I do not understand why-->
 			<sidebar class = "gray"</sidebar>
 		</div>
-		<div class = "clearfix">
+		<div>
 			<section class = "gray" id  = "topsection"</section>
 		</div>
-		<div class = "clearfix">
+		<div>
 			<section class = "gray" id = "sidesection"></section>
 			<section class = "gray" id = "middlesection"></section>
 		</div>
 		<div class = "clearfix">
-			<article class = "gray articles" ></article>
+			<article class = "gray articles" ></article> 
 			<article class = "gray articles"></article>
 			<article class = "gray articles"></article>
 			<article class = "gray articles"></article>
