@@ -7,16 +7,15 @@ $(document).ready(function() {
 	var userWins = function (computerPlay,userChoice){
 		userTotal += 1;
     	$("#humanScore").html(userTotal);
-    	alert (userChoice + " beats " + computerPlay + " - You win!");  
+    	$("#resultsMessage").html(userChoice + " beats " + computerPlay + " - You win!");  
 	}
 	var computerWins = function (computerPlay,userChoice){
     	computerTotal += 1;
     	$("#computerScore").html(computerTotal);
-    	alert (computerPlay + " beats " + userChoice + " - Computer wins!");
-    	$("#resultsMessage") = html("blah"); //this is not working
+    	$("#resultsMessage").html(computerPlay + " beats " + userChoice + " - Computer wins!");
 	}
 	var alertTie = function(){
-		alert ("It's a tie");
+		$("#resultsMessage").html("It's a tie. Try again");
 	}
 
 	var getComputerPlay = function () {
