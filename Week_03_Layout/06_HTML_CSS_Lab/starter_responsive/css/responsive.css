@@ -1,0 +1,47 @@
+
+@media (max-width: 640px) {
+  #menu-list {
+    display: none;
+  }
+  #menu-button {
+    display: block;
+  }
+  #menu-button ul {
+		display: none;
+	}
+  #banner {
+    display: none;
+  }
+  #box {
+	  margin: 20px 20px 20px 20px;
+	  padding: 20px;
+	  width: 100%;
+	  border: 1px solid gray;
+	  background-color: rgba(255, 255, 255, 0.8);
+	}
+/*	#box p {
+		display: none;
+	}*/
+	article {
+/*	  float: left;
+	  width: 300px;*/
+	  padding: 20px;
+	  display: inline-block;
+		text-align: center;
+	}
+}
+
+@media (min-width: 640px) {
+    #menu-button {
+    display: none;
+  }
+}
+
+.responsive-menu {
+	display: block;
+	background: black;
+	color: white;
+}
+
+
+
